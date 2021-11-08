@@ -44,13 +44,12 @@ Lookup a Pokemon!
                     <td>{{pokemon_stats['hp_base']}}</td>
                     <td>{{pokemon_stats['attack_base']}}</td>
                     <td>{{pokemon_stats['defense_base']}}</td>    
-                    <td>{{pokemon_stats['front_shiny_sprite']}}</td>
+                    <td><a href="{{pokemon_stats['front_shiny_sprite']}}"><img src="{{pokemon_stats['front_shiny_sprite']}}" class="img-fluid" alt="shiny"</a></td>
                     
                 </tr>
             
         </tbody>
         </table>
-        <img src="{{pokemon_stats['front_shiny_sprite']}}" class="img-fluid" alt="shiny">    {% else %}
     Gotta Catch 'em All!
     {% endif %}
 

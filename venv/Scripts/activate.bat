@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\MG-PC 2\Documents\Coding\coding_temple\week_5\day_1\pokemon\venv
+set VIRTUAL_ENV=C:\Users\MG-PC 2\Documents\Coding\coding_temple\week_5\pokemon\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

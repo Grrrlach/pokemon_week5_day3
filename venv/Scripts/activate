@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\MG-PC 2\Documents\Coding\coding_temple\week_5\day_1\pokemon\venv"
+VIRTUAL_ENV="C:\Users\MG-PC 2\Documents\Coding\coding_temple\week_5\pokemon\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
